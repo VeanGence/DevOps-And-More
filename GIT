@@ -1,0 +1,57 @@
+Project: Flipkart
+ #homepage
+ #product_categories
+ #payment
+ #cart
+ #orders
+  - multiple developers will work for project development
+  - developers will work from diff machines(laptop)
+  example:
+  dev1: homepage 
+  dev2: payment 
+  dev3: product_categories
+  - all developers should store the source code at one place [code intergration]
+  - to integrate all source code we need a sorce code management tool
+    thats why we are using #Github and Git
+
+# Advantages of Source Code Management(SCM) Tools: 
+- all developers can connect to central repo and integrate code
+- who modified code
+- when code changes happen 
+- what changes he did
+
+# SCM Tools(Source Code Management Tool):
+1. Github
+2. GitLab
+3. Bit Bucket
+-> Github [code intergration]
+# create an account on https://github.com 
+# create one central repository/remote repository
+  - it is used to store code changes
+  - every time you create new repository a unique url will be generated
+    example: https://github.com/abhipraydhoble/myfirstrepo.git
+  - so all the developers will connect to this repo using above url
+  - we have 2 types of repos on github:
+    1. public repo -> anyone can see this repo
+    2. private repo -> only you can see this repo
+
+-> Git [for version control]
+- to perform git operation on local machine we required git client 
+  -> windows: git bash
+  -> linux:  apt install git / yum install git 
+
+# How to connect with central repo
+
+- go to github -> click on repo
+-> copy link
+1.https: required username and token
+2.ssh: no auth required
+
+commands:
+# git clone url:.................. 
+# git config --global user.name "asdfg"
+# git config --global user.email "admin@gmail.com"
+# git add filename
+# git commit -m "msg"
+# git push origin main
+
